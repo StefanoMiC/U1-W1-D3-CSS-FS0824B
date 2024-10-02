@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing em & rem</title>
+    <style>
+        main {
+            font-size: 20px;
+        }
+
+        main p {
+            /* 2em === 40px */
+            /* 2rem === 32px */
+            font-size: 2em;
+
+            /* em fanno riferimento al primo genitore con un font-size */
+            /* rem fanno riferimento al root element ovvero l'html che è sempre 16px di base */
+        }
+
+        span {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <h1>Testing em & rems</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing <span>elit</span>. Neque est natus voluptate eligendi
+            quis nam
+            voluptatum a in reiciendis, veritatis sequi eveniet voluptatem. Molestias, nostrum rem aliquam quae dolorum
+            repudiandae.</p>
+    </main>
+
+
+</body>
+
+</html>
