@@ -4,35 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>U1-W1-D3 CSS</title>
 
-    <!-- DRY - Don't Repeat Yourself -->
-    <style>
-        /* 2) questo è come fosse un foglio di stile integrato però nell'html */
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        h1 {
-            color: palevioletred;
-            font-size: 66px;
-            letter-spacing: -2px;
-        }
-
-        h2 {
-            color: aqua;
-        }
-    </style>
-
-    <!-- 3) STILE ESTERNO -->
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Layout in CSS</title>
 </head>
-
-<!-- 
-APPLICARE STILI CSS
-
-1) INLINE - attributo style sul tag
-2) STILE INCORPORATO - tag <style> dentro <head>
-3) STILE ESTERNO - foglio di stile CSS in un file esterno importato nel tag head
-
--->
 
 <body>
 
@@ -41,93 +21,22 @@ APPLICARE STILI CSS
 
         <nav>
             <ul>
-                <li><a href="#">menu-item-1</a></li>
-                <li><a href="#">menu-item-2</a></li>
-                <li><a href="#">menu-item-3</a></li>
-                <li><a href="#">menu-item-4</a></li>
-                <li><a href="#">menu-item-5</a></li>
+                <li><a href="#">item-1</a></li>
+                <li><a href="#">item-2</a></li>
+                <li><a href="#">item-3</a></li>
+                <li><a href="#">item-4</a></li>
+                <li><a href="#">item-5</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <h1>Primo <em>giorno</em> di <span>CSS</span></h1>
 
-        <h1>Primo giorno di CSS</h1>
-
-        <article>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
-
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, accusamus perspiciatis voluptatibus omnis
-                numquam
-                porro cumque officia aliquid aspernatur sapiente dignissimos ipsa amet officiis explicabo in odio non
-                alias
-                vitae.
-                Alias fugiat adipisci at eveniet placeat esse enim cum, laborum vitae nam perspiciatis, consequatur
-                sapiente
-                qui
-                corrupti, perferendis dolorum veniam ullam distinctio quos. Incidunt odit ipsum nulla expedita libero
-                quidem?
-                Velit illo dignissimos voluptates. Corrupti reprehenderit suscipit nam natus culpa, laudantium qui fugit
-                illo
-                aperiam quas id dicta aspernatur dignissimos in soluta totam, dolore autem ut. Porro laudantium
-                voluptatibus
-                facere?
-                Blanditiis, fugit aliquid debitis neque eaque id temporibus amet repellat iste aliquam placeat, dolor
-                excepturi,
-                saepe ipsum obcaecati error iusto quibusdam atque ipsa. Eius aliquam optio harum temporibus doloremque
-                iusto.
-                Repellendus optio deserunt ipsa quam eveniet, rerum non voluptate fugit suscipit aspernatur veritatis
-                vel
-                fugiat
-                at error voluptatum quo neque quia. Dolor est hic tenetur placeat quisquam, assumenda ea quas.</p>
-            <ul>
-                <li>elemento1</li>
-                <li>elemento2</li>
-                <li>elemento3</li>
-                <li>elemento4</li>
-                <li>elemento5</li>
-                <li>elemento6</li>
-                <li>elemento7</li>
-                <li>elemento8</li>
-                <li>elemento9</li>
-                <li>elemento10</li>
-            </ul>
-        </article>
-        <article>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam officiis, quae sapiente deserunt provident
-                exercitationem? </h3>
-
-            <p>
-                Repellendus optio deserunt ipsa quam eveniet, rerum non voluptate fugit suscipit aspernatur veritatis
-                vel
-                fugiat
-                at error voluptatum quo neque quia. Dolor est hic tenetur placeat quisquam, assumenda ea quas.</p>
-            <ul>
-                <li>elemento1</li>
-                <li>elemento2</li>
-                <li>elemento3</li>
-            </ul>
-        </article>
+        <img src="https://images.unsplash.com/photo-1719937051176-9b98352a6cf4?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            width="300" height="300">
     </main>
-    <!-- 1) Stile in linea -->
-    <footer style="background-color: black; color: white;">
-        Epicode&copy; 2024
 
-        <button>Contattaci</button>
-
-        <ul>
-            <li>footer-element</li>
-            <li>footer-element</li>
-            <li>footer-element</li>
-            <li>footer-element</li>
-            <li>footer-element</li>
-            <li>footer-element</li>
-            <li>footer-element</li>
-            <li>footer-element</li>
-            <li>footer-element</li>
-            <li>footer-element</li>
-        </ul>
-    </footer>
 </body>
 
 </html>

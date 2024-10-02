@@ -1,12 +1,38 @@
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: antiquewhite;
 }
 
-article {
-  color: blue;
+h1 {
+  margin-top: 0;
 }
 
-article ul {
-  color: red;
+header img {
+  vertical-align: middle;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+ul li {
+  display: inline-block;
+}
+
+main {
+  background-color: white;
+  max-width: 1080px;
+  margin-inline: auto;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  border: 2px solid rgb(0 0 0 / 25%);
+}
+
+main img {
+  display: block;
+  margin-inline: auto;
+  border-radius: 50%;
 }
