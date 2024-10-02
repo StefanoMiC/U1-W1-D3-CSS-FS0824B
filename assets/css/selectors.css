@@ -1,0 +1,42 @@
+/* selettore tramite tag o element name, è tra i più generici, ha una forza intrinseca molto bassa */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article {
+  color: blue;
+}
+
+article ul {
+  color: red;
+}
+
+article p {
+  font-size: 14px;
+}
+
+/* SPECIFICITA' > POSIZIONAMENTO */
+
+/* ID vince per specificità su classi e su elementi generici anche se definito prima di loro */
+#selected {
+  color: purple;
+}
+
+/* selettore tramite classe . - contenitore di stile riutilizzabile*/
+
+/* Classe vince per specificità su selettore generico per tag */
+.subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: palegreen;
+}
+
+.post {
+  border: 2px solid paleturquoise;
+}
+
+.post.post-alt {
+  border-color: palevioletred;
+}
